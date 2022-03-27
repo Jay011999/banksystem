@@ -2,7 +2,7 @@ import sys
 import time
 import random
 
-'''This is to generate random passord for account'''
+'''This is to generate random password for account'''
 l = "abcdefghijklmnopqrstuvwxyz"
 u = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 n = "1234567890"
@@ -14,11 +14,6 @@ password="".join(random.sample(all,length))
 
 class Bank:
     balance=10000
-    # def __init__(self, name, account_number, balance=1000):
-    #     self.name = name
-    #     self.account_number = account_number
-    #     self.balance = balance
-
     def account_creation(self,name,account_number):
         print("Welcome to new account creation!! ")
         self.name=name
@@ -138,9 +133,5 @@ while True:
 
 
 
-# time.sleep(5)
-# name=input("Enter Account holder name: ")
-# account_number=int(input("Enter Account number : "))
-# obj1=Bank(name, account_number)
-# obj1.options()
+#end of code
 
